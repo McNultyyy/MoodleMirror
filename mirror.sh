@@ -12,4 +12,4 @@ wget --load-cookies $cookies \
 --keep-session-cookies --save-cookies $cookies \
 --referer=$loginurl -m -E -k \
 --reject logout*,*cal_m*,*cal_y*,post.php*,*subscribe*,help.php*,enrol.php* \
---exclude-directories=/calendar $url
+--exclude-directories=/calendar, /forum, /user $url
